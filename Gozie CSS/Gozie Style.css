@@ -1,0 +1,127 @@
+body{
+    background-color: #cac9c9;
+    font: normal 16px Georgia, 'Times New Roman', Times, serif;
+
+}
+.clr{
+    clear: both;
+}
+
+#container{
+    padding-top: 30px;
+    background-color: white;
+    max-width: 80%; 
+    margin-right: auto;
+    margin-left: auto;
+}
+#Header{
+    max-width: 96%;
+    height: 300px;
+    position: relative;
+    border: 1px dotted;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #66CCFF
+}
+.Hcontent{
+    
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    float: left;
+    position: absolute;
+}
+h1{
+    font-size: 40px;
+}
+.Image{
+    max-width: 20%;
+    float: right;
+    right: 80px;
+    top: 20px;
+    position: absolute;
+    box-sizing: border-box;
+}
+#Content{
+    width: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.Introduction{
+    width: 95%;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+.Section{
+    margin-left: 5px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+#main{
+    float:left;
+    width:70%;
+    position: relative;
+}
+#sideList{
+    float:right;
+    width:30%;
+    position: relative;
+}
+#sideList ul{
+    list-style: none;
+}
+h3{
+    color: #66CCFF;
+    font-size: 24;
+}
+.followMe ul{
+    list-style: none;
+}
+.followMe li{
+    display: inline;
+    padding-right: 30px;
+}
+.followMe a{
+    text-decoration: none;
+}
+#Footer{
+    background-color: #66CCFF;
+    text-align: center;
+    padding:20px;
+}
+@media (max-width: 500px){
+    .Hcontent{
+        widows: 100%;
+        float: none;
+    }
+    .Image{
+        widows: 100%;
+        float: none;
+    }
+    #main{
+        widows: 100%;
+        float: none;
+    }
+    #sodelist{
+        widows: 100%;
+        float: none;
+    }
+}
