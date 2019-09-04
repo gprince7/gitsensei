@@ -1,127 +1,118 @@
 body{
-    background-color: #cac9c9;
-    font: normal 16px Georgia, 'Times New Roman', Times, serif;
-
-}
-.clr{
-    clear: both;
+    background-color: #cfd2d3;
+    font: 16px/1 Georgia, 'Times New Roman', Times, serif;
+    padding:0;
+    margin:0;
 }
 
-#container{
-    padding-top: 30px;
-    background-color: white;
-    max-width: 80%; 
-    margin-right: auto;
-    margin-left: auto;
+/* Global */
+.container{
+ /* background-color: #cac9c9; */
+    width: 80%; 
+    margin: auto;
+    overflow: hidden;
 }
-#Header{
-    max-width: 96%;
-    height: 300px;
-    position: relative;
-    border: 1px dotted;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 20px;
+ul{
+    margin: 0;
+    padding: 0;
+}
+input[type=text], input[type=email], textarea, .button{
+    width:40%;
+    border: 1px solid #ccc;
+    padding:10px;
     box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #66CCFF
+    margin: 8px 0;
 }
-.Hcontent{
-    
+textarea{
+    height: 150px;
+}
+.button{
+    background-color: #66CCFF;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+/* Header*/
+header{
+    background-color: #66CCFF;
+    padding: 15px 0 20px 0;
+    min-height: 70px; 
     text-align: center;
-    padding-left: 40px;
-    padding-top: 30px;
-    box-sizing: border-box;
-    float: left;
-    position: absolute;
+    margin-bottom: 10px;
 }
-h1{
-    font-size: 40px;
+header #Hcontent h1{
+    margin-top: 20px;
+    font-size: 45px;
 }
-.Image{
-    max-width: 20%;
+header #Hcontent p{
+    font-size: 14px;
+    width: 65%;
+    padding-left: 60px;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header .image{
     float: right;
-    right: 80px;
-    top: 20px;
-    position: absolute;
-    box-sizing: border-box;
+    width: 20px;
 }
-#Content{
-    width: 95%;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 20px;
-    box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
-    
+#Hcontent{
+    float: left;
 }
-.Introduction{
-    width: 95%;
-    position: relative;
-    margin-left: 5px;
-    margin-right: 5px;
-    box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
+
+/* Center*/
+#introduction{
     text-align: justify;
 }
-.Section{
-    margin-left: 5px;
-    margin-right: 5px;
-    box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
+#introdution .container{
+    min-height: 70px;
+    padding: 20px;
+}
+#main.container{
+    position: relative;
+    padding-bottom: 30pc;
+    min-height: 800px;
+}
+section #main .container aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+}
+section#main .container article#credential{
+    float: left;
+    width: 65%;
+}
+#cerdential{
     text-align: justify;
 }
-#main{
-    float:left;
-    width:70%;
-    position: relative;
+.skill ul{
+    padding-left: 50px;
 }
-#sideList{
-    float:right;
-    width:30%;
-    position: relative;
-}
-#sideList ul{
-    list-style: none;
-}
-h3{
-    color: #66CCFF;
-    font-size: 24;
-}
-.followMe ul{
-    list-style: none;
+/* Footer*/
+footer{
+    background-color: #66CCFF;
+    min-height: 70px;
+    padding: 30px 0;
+    text-align: center;
 }
 .followMe li{
+    list-style: none;
     display: inline;
-    padding-right: 30px;
+    padding-right: 20px;
 }
 .followMe a{
     text-decoration: none;
+    color: black;
 }
-#Footer{
-    background-color: #66CCFF;
-    text-align: center;
-    padding:20px;
-}
-@media (max-width: 500px){
-    .Hcontent{
-        widows: 100%;
-        float: none;
-    }
-    .Image{
-        widows: 100%;
-        float: none;
-    }
-    #main{
-        widows: 100%;
-        float: none;
-    }
-    #sodelist{
-        widows: 100%;
-        float: none;
-    }
+.followMe a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
